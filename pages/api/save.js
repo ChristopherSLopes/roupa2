@@ -40,7 +40,6 @@ export default async (req, res) =>{
             'Nome:': data.Nome,
             'Whatsapp:': data.Whatsapp,    //O nome, email, watsapp estão entre parenteses porque tem um ':', se não tivesse o ':' podia ser sem
             'Comentário:': data.Comentario,
-            'Data de Preenchimento:': moment().format('DD/MM/YYYY HH:mm:ss'),
             'Nota:': parseInt(data.Nota),
             'Cupom:': Cupom,
             'Promo:': Promo
