@@ -43,7 +43,7 @@ export default async (req, res) =>{
             'Nota:': parseInt(data.Nota),
             'Data de Preenchimento:': moment().format('DD/MM/YYYY HH:mm:ss'),
             'Cupom:': Cupom,
-            'Promo:': Promo //Para saber o que foi prometido
+            'Promo:': Promo
         })
         await sheetEnd.addRow({
             'Nome:': data.Nome,
