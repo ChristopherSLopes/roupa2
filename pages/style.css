@@ -1,0 +1,199 @@
+/*Cabeçalho*/
+
+.wrapper{
+    background-color: rgb(134 239 172);;
+    padding: 1rem;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+.layout{
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu{
+    background-color: rgb(34 197 94);
+    padding: 1rem;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    text-align: center;
+    font-weight: 600;
+}
+
+.ancora{
+    padding-left: 0.625rem; /* 10px */
+    padding-right: 0.625rem; /* 10px */
+    font-size: 1.25rem;
+    font-weight: 300;
+    font-family: Calibri, sans-serif;
+}
+
+.ancora:hover{
+    text-decoration: underline;
+}
+
+
+/*Footer*/
+.footer{
+    background-color: rgb(21 128 61);
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 1rem;
+    margin-top: 4rem;
+}
+
+.desenvolvedor{
+    background-color: rgb(20 83 45);
+    color: white;
+    padding: 10px
+}
+
+.whatsapp{
+    width: 16px;
+}
+
+.teste{
+    text-align: center;
+}
+
+.meucontato{
+    color: white
+}
+
+/*Geral*/
+.titulo{
+    text-align: center;
+    padding-top: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem; /* 16px */
+    margin-bottom: 3rem; /* 16px */
+    font-size: 2.3rem;
+}
+
+p{
+    font-size: 16pt;
+    line-height: 40px;
+    margin: 0 3em 
+}
+
+body{
+    background-color: rgb(247 254 231);
+}
+
+/*incio*/
+.botao{
+    margin-top: 3rem; /* 48px */
+    margin-bottom: 3rem; /* 48px */
+}
+.botaoDentro{
+    background-color: rgb(37 150 200);
+    padding-left: 1.5rem;
+    padding-right: 1.5rem; 
+    padding-top: 1rem; /* 16px */
+    padding-bottom: 1rem; /* 16px */
+    font-weight: bold;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    font-size: 16pt;
+    color: black;
+}
+.botaoDentro:hover{
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+
+
+/*Pesquisa*/
+
+.label{
+    font-size: 24px;
+    width: 50px;
+}
+
+.form{
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+.input{
+    display: block;
+    margin: auto;
+    font-size: 16px;
+    padding: 1rem; /* 16px */
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    background-color: rgb(219 234 254);
+    margin-top: 0.5rem; /* 8px */
+    margin-bottom: 0.5rem; /* 8px */
+    border-radius: 1rem; /* 4px */
+}
+
+.input:hover{
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.5), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.divRadio{
+    display: flex;
+    padding-top: 1.5rem; /* 24px */
+    padding-bottom: 1.5rem; /* 24px */
+    justify-content: center;
+}
+
+.button{
+    background-color: rgb(96 165 250);
+    padding-top: 1rem; /* 16px */
+    padding-bottom: 1rem; /* 16px */
+    padding-left: 2.5rem; /* 40px */
+    padding-right: 2.5rem; /* 40px */
+    font-weight: bold;
+    border-radius: 0.5rem; /* 8px */
+    margin-left: 2rem; /* 32px */
+    margin-right: 2rem; /* 32px */
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    font-size: 24px;
+}
+
+.button:hover{
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+
+/*Cupom*/
+.cupom-div{
+    text-align: center;
+    border-width: 1px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.cupom-blue{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    padding-left: 1rem; /* 16px */
+    padding-right: 1rem; /* 16px */
+    padding-top: 0.75rem; /* 12px */
+    padding-bottom: 0.75rem; /* 12px */
+}
+
+.div-cupom{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.text-cupom{
+    font-weight: 700;
+    font-size: 1.5rem; /* 24px */
+    line-height: 2rem; /* 32px */
+    border-color: rgb(59 130 246);
+    color: rgb(29 78 216);
+    background-color: rgb(219 234 254);
+    padding: 0.5rem;
+    display: block;
+}
+
+.promocao-cupom{
+    font-weight: 700;
+    display: block;
+    margin-bottom: 0.25rem;
+}
+.italic{
+    font-style: italic;
+}
