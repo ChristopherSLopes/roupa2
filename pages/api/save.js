@@ -39,8 +39,8 @@ export default async (req, res) =>{
         await sheet.addRow({
             'Nome:': data.Nome,
             'Whatsapp:': data.Whatsapp,    //O nome, email, watsapp estão entre parenteses porque tem um ':', se não tivesse o ':' podia ser sem
-            'Nota:': parseInt(data.Nota),
             'Comentário:': data.Comentario,
+            'Nota:': parseInt(data.Nota),
             'Data de Preenchimento:': moment().format('DD/MM/YYYY HH:mm:ss'),
             'Cupom:': Cupom,
             'Promo:': Promo //Para saber o que foi prometido
@@ -48,8 +48,8 @@ export default async (req, res) =>{
         await sheetEnd.addRow({
             'Nome:': data.Nome,
             'Whatsapp:': data.Whatsapp,    //O nome, email, watsapp estão entre parenteses porque tem um ':', se não tivesse o ':' podia ser sem
-            'Nota:': parseInt(data.Nota),
             'Comentário:': data.Comentario,
+            'Nota:': parseInt(data.Nota),
             'Data de Preenchimento:': moment().format('DD/MM/YYYY HH:mm:ss'),
             'Promo:': Promo
         })
