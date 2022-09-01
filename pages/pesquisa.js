@@ -41,9 +41,9 @@ const Pesquisa = () => {
             </p>
             { !sucess && <div className='form'>
                 <label className='label'>Seu Nome:</label>
-                <input type='text' className='input' placeholder='Nome' onChange={onChange} name='Nome' value={form.Nome}/>
+                <input type='text' className='input' placeholder='Nome' onChange={onChange} name='Nome' value={form.Nome}  required />
                 <label className='label'>Whatsapp:</label>
-                <input type='number' className='input' placeholder='Whatsapp' onChange={onChange} name='Whatsapp' value={form.Whatsapp}/>
+                <input type='tel' className='input' placeholder='Whatsapp' onChange={onChange} name='Whatsapp' value={form.Whatsapp}  required/>
                 <label className='label'>Sugestões e comentários:</label>
                 <textarea className='input' cols='35' rows='8' onChange={onChange} name='Comentario' value={form.Comentario}></textarea>
 
