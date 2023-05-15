@@ -6,9 +6,7 @@ const Sobre = () => {
         <div>
             <PageTitle title='Sobre Nós'/>
             <h1 className='titulo'>Sobre</h1>
-            <p>Nascemos da vontade de criar uma exelente experiencia para nossos clientes</p>
-            <p>Em 2020 Fulano da silva teve sentiu falta de um ambiente familiar em que possa levar sua familia para comer uma comida saborosa.</p>
-            <p>Então ele criou a Restaurante PalpiteBox para entregar esse ambiente familiar para sua familia.</p>
+            <p>Nossa loja de roupas foi fundada com a visão de oferecer roupas elegantes e confortáveis para homens, mulheres e crianças. Nós nos orgulhamos em oferecer uma seleção exclusiva de peças de alta qualidade, que atendem às necessidades de moda de nossos clientes.</p>
         </div>
     )
 }
